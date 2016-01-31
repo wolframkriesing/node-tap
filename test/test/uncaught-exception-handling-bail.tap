@@ -1,0 +1,9 @@
+TAP version 13
+ok 1 - should match pattern provided
+ok 2 - should be equal
+not ok 3 - Error: this makes test failre
+  ---
+  {"at":{"column":11,"file":"test/test/uncaught-exception-handling.js","line":10},"message":"Error: this makes test failre","source":"throw new Error('this makes test failre')\n","test":"TAP"}
+  ...
+Bail out! # Error: this makes test failre
+
