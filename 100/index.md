@@ -19,6 +19,7 @@ to add it to the docs.
 * [events-to-array](https://www.npmjs.com/package/events-to-array)
 * [express-jwt-permissions](https://www.npmjs.com/package/express-jwt-permissions)
 * [fs-exists-cached](https://www.npmjs.com/package/fs-exists-cached)
+* [fs-minipass](https://www.npmjs.com/package/fs-minipass)
 * [fs-readstream-seek](https://www.npmjs.com/package/fs-readstream-seek)
 * [function-loop](https://www.npmjs.com/package/function-loop)
 * [hoodie](https://www.npmjs.com/package/hoodie)
