@@ -16,6 +16,8 @@ links:
       url: "/subtests/"
     - name: "Parallel Tests"
       url: "/parallel/"
+    - name: "Snapshot Testing"
+      url: "/snapshots/"
     - name: "Filtering Tests: grep"
       url: "/grep/"
     - name: "Filtering Tests: only"
