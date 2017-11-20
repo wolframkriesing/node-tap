@@ -66,6 +66,28 @@ assertion is actually implemented using a subtest.  As such, it does
 not return a boolean to indicate its passing status.  Instead, it
 returns a Promise that resolves when it is completed.
 
+## t.resolves(promise | fn, message, extra)
+
+Verifies that the promise (or promise-returning function) resolves,
+making no expectation about the value that the promise resolves to.
+
+Note: since promises always reject and resolve asynchronously, this
+assertion is actually implemented using a subtest.  As such, it does
+not return a boolean to indicate its passing status.  Instead, it
+returns a Promise that resolves when it is completed.
+
+## t.resolveMatch (promise | fn, wanted, message, extra)
+
+Verifies that the promise (or promise-returning function) resolves,
+and furthermore that the value of the promise matches the `wanted`
+pattern using `t.match`.
+
+Note: since promises always reject and resolve asynchronously, this
+assertion is actually implemented using a subtest.  As such, it does
+not return a boolean to indicate its passing status.  Instead, it
+returns a Promise that resolves when it is completed.
+
+
 ## t.throws(fn, [expectedError], message, extra)
 
 Expect the function to throw an error.  If an expected error is

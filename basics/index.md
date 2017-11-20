@@ -25,7 +25,7 @@ Next, update your package.json so that the test script invokes tap:
   "name": "my-awesome-module",
   "version": "1.2.3",
   "devDependencies": {
-    "tap": "^10.0.0"
+    "tap": "^11.0.0"
   },
 
   "scripts": {

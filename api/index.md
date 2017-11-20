@@ -11,6 +11,7 @@ See also:
 
 - [Getting Started](/basics/)
 - [Asserts](/asserts/)
+- [Snapshot Testing](/snapshots/)
 - [Promises](/promises/)
 - [Subtests](/subtests/)
 - [Parallel Tests](/parallel/)
@@ -106,6 +107,14 @@ for child tests:
 * `only` Set to `true` to run this test when in `runOnly` mode.
   See [filtering tests using only](/only/)
 * `runOnly` Set to `true` to only run tests with `only:true` set.
+
+### t.todo([name], [options], [function])
+
+Exactly the same as `t.test()`, but adds `todo: true` in the options.
+
+### t.skip([name], [options], [function])
+
+Exactly the same as `t.test()`, but adds `skip: true` in the options.
 
 ### t.only([name], [options], [function])
 

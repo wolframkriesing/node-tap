@@ -2,6 +2,17 @@
 layout: layout
 ---
 
+## 11.0
+
+Significant refactoring and speed improvements.
+
+Add `t.skip()` and `t.todo()` methods.
+
+Add support for [snapshot testing](/snapshots/).
+
+BREAKING CHANGE: classes are actual ECMAScript classes now, so
+constructors cannot be called without `new`.
+
 ## 10.7 2017-06-24
 
 Add support for [filtering tests using 'only'](/only/).
