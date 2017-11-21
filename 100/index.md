@@ -26,6 +26,7 @@ to add it to the docs.
 * [icepick](https://www.npmjs.com/package/icepick)
 * [ignore-walk](https://www.npmjs.com/package/ignore-walk)
 * [inflight](https://www.npmjs.com/package/inflight)
+* [ini](https://www.npmjs.com/package/ini)
 * [isexe](https://www.npmjs.com/package/isexe)
 * [lru-cache](https://www.npmjs.com/package/lru-cache)
 * [lucass](https://www.npmjs.com/package/lucass)
